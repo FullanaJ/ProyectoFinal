@@ -48,7 +48,6 @@ public class CreadorDeFactura extends Fragment {
 // Guarda el bitmap como una imagen en el almacenamiento externo
         try {
             FileOutputStream outputStream = new FileOutputStream(imageFile);
-            System.out.println("Guardando imagen en: " + imageFile.getAbsolutePath());
             bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream); // o CompressFormat.JPEG si deseas guardar como JPG
             outputStream.close();
         } catch (Exception e) {
