@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/borde_pintado"
+        android:padding="2dp"
+        android:text="código"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="24"
+        android:background="@drawable/borde_pintado"
+        android:padding="2dp"
+        android:text="Artículo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/borde_pintado"
+        android:padding="2dp"
+        android:text="Unidades"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/borde_pintado"
+        android:padding="2dp"
+        android:text="Precio Un."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/borde_pintado"
+        android:padding="2dp"
+        android:text="% IVA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/borde_pintado"
+        android:padding="2dp"
+        android:text="TOTAL"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+</LinearLayout>

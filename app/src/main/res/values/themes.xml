@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProyectoFinal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+
+        <item name="colorPrimaryVariant">?attr/colorPrimaryVariant</item>
+        <item name="colorPrimary">@color/primareVariation</item>
+        <item name="colorOnSecondary">@color/primareVariationD</item>
+        <item name="colorSecondaryVariant">@color/SecondaryVariation</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorNavigationItem">@color/menu_item_color_state</item>
+        <item name="colorNavigationItemSelected">@color/primareVariation</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+        
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">?attr/colorNavigationItem</item>
+        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+    </style>
+    <style name="Theme.ProyectoFinal.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="DrawerColor" parent="Theme.ProyectoFinal">
+    </style>
+
+    <style name="Theme.ProyectoFinal.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ProyectoFinal.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

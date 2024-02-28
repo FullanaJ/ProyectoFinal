@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#F7E8F6</color>
+    <color name="primary">#9365CF</color>
+    <color name="primareVariation">#C76FB8</color>
+    <color name="secondary">#BD83CE</color>
+    <color name="SecondaryVariation">#6E66B0</color>
+    <color name="primaryD">#3F0071</color>
+    <color name="primareVariationD">#620070</color>
+    <color name="secondaryD">#402483</color>
+    <color name="SecondaryVariationD">#2C0070</color>
+    <color name="Factura3">#C2185B</color>
+</resources>

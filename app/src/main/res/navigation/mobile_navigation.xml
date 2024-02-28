@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_facturas">
+
+    <fragment
+        android:id="@+id/nav_facturas"
+        android:name="com.fullana.proyectofinal.ui.home.FacturasFragment"
+        android:label="@string/menu_facturas"
+        tools:layout="@layout/fragment_facturas" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.fullana.proyectofinal.ui.gallery.AlbaranFragment"
+        android:label="@string/menu_albaran"
+        tools:layout="@layout/fragment_albaran" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.fullana.proyectofinal.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/creadorDeFactura"
+        android:name="com.fullana.proyectofinal.ui.creadorDeFacturas.CreadorDeFactura"
+        android:label="fragment_creador_de_factura"
+        tools:layout="@layout/fragment_creador_de_factura" />
+</navigation>
