@@ -4,13 +4,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white2">#F7E8F6</color>
-    <color name="primary">#9365CF</color>
-    <color name="primareVariation">#C76FB8</color>
-    <color name="secondary">#BD83CE</color>
-    <color name="SecondaryVariation">#6E66B0</color>
-    <color name="primaryD">#3F0071</color>
-    <color name="primareVariationD">#620070</color>
-    <color name="secondaryD">#402483</color>
-    <color name="SecondaryVariationD">#2C0070</color>
-    <color name="Factura3">#C2185B</color>
+    <color name="primary">#50b8e7</color>
+    <color name="primareVariation">#84cdee</color>
+    <color name="secondary">#E6E6FF</color>
+    <color name="SecondaryVariationDark">#9D9DAF</color>
+    <color name="SecondaryVariation">#FFE5FF</color>
+    <color name="primaryD">#1E3A4C</color>
+    <color name="primareVariationD">#4283B7</color>
+    <color name="secondaryD">#4F4F79</color>
+    <color name="secondaryTransparen">#4D1E3A4C</color>
+    <color name="SecondaryVariationD">#3C3C66</color>
+    <color name="Factura3">#4A148C</color>
+    <color name="hint">#8C8C8C</color>
+    <color name="error">#B71C1C</color>
 </resources>
