@@ -4,11 +4,11 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.fullana.proyectofinal.R;
 import com.fullana.proyectofinal.databinding.FirmaActivityBinding;
 
 import java.io.IOException;
@@ -21,7 +21,6 @@ public class FirmaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = FirmaActivityBinding.inflate(getLayoutInflater());
-
         setContentView(binding.getRoot());
 
         binding.viewDraw.setVisibility(View.VISIBLE);

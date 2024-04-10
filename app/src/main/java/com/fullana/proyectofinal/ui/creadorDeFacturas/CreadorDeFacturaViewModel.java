@@ -1,6 +1,7 @@
 package com.fullana.proyectofinal.ui.creadorDeFacturas;
 
 
+import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,12 +12,16 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.fullana.proyectofinal.Model.Client;
+import com.fullana.proyectofinal.Model.Empresa;
+import com.fullana.proyectofinal.Model.Factura;
 import com.fullana.proyectofinal.Model.Item;
 import com.fullana.proyectofinal.R;
 import com.fullana.proyectofinal.databinding.RecyclerItemFacturaBinding;
 import com.fullana.proyectofinal.utils.CommonUtils;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -138,7 +143,12 @@ public class CreadorDeFacturaViewModel extends ViewModel {
         }
     }
 
+    public void createFactura(Activity activity){
+        Factura factura = new Factura("20/5/24","2312",new Empresa(),new Client("name","f","",""),"",null,new BigDecimal(5),new BigDecimal(5), new BigDecimal(5),new BigDecimal(5),Factura.ESTANDAR);
+        factura.arma(CommonUtils.getExternalStoragePath(activity),activity);
+    }
     public interface Callback {
         void onDialogOk(Map<String, String> datos);
     }
+
 }

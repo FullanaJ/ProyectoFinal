@@ -12,6 +12,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
+import lombok.Getter;
+
 public class MyCanvaView extends View  {
 
     static Path drawPath;
@@ -24,6 +26,7 @@ public class MyCanvaView extends View  {
     //canvas
     private Canvas drawCanvas;
     //canvas bitmap
+    @Getter
     private Bitmap canvasBitmap;
     //eraser mode
 
@@ -100,7 +103,4 @@ public class MyCanvaView extends View  {
         return true;
     }
 
-    public Bitmap getCanvasBitmap() {
-        return canvasBitmap;
-    }
 }

@@ -1,5 +1,6 @@
 package com.fullana.proyectofinal.utils;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Resources;
@@ -155,7 +156,7 @@ public class CommonUtils {
      * @param titleT
      * @param messageT
      */
-    public static void defaultDialog(FragmentActivity activity, String titleT, String messageT) {
+    public static void defaultDialog(Activity activity, String titleT, String messageT) {
 
         Dialog dialog = new Dialog(activity);
         dialog.setContentView(R.layout.dialog_alert);
@@ -211,42 +212,10 @@ public class CommonUtils {
      * @param activity
      * @return
      */
-    public static Path getExternalStoragePath(AppCompatActivity activity) {
+    public static Path getExternalStoragePath(Activity activity) {
         return activity.getFilesDir().toPath();
     }
 
-    /**
-     * Create an image
-     *
-     * @param fragment
-     */
-    public static void crearImagen(CreadorDeFactura fragment) {
-
-        View fragmentView = fragment.getView();
-
-        Bitmap bitmap = Bitmap.createBitmap(fragmentView.getWidth(), fragmentView.getHeight(), Bitmap.Config.ARGB_8888);
-
-        // Crea un lienzo para dibujar el bitmap
-        Canvas canvas = new Canvas(bitmap);
-
-        // Renderiza la vista del fragmento en el bitmap
-        fragmentView.draw(canvas);
-
-        // Define el nombre y la ruta de archivo para guardar el bitmap
-        String filename = "mi_imagen.png"; // o "mi_imagen.jpg" si deseas guardar como JPG
-        File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
-        File imageFile = new File(storageDir, filename);
-
-        // Guarda el bitmap como una imagen en el almacenamiento externo
-        try {
-            FileOutputStream outputStream = new FileOutputStream(imageFile);
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream); // o CompressFormat.JPEG si deseas guardar como JPG
-            outputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
     public static String formatFloat(float number) {
         DecimalFormatSymbols symbols = new DecimalFormatSymbols();
         symbols.setDecimalSeparator(',');

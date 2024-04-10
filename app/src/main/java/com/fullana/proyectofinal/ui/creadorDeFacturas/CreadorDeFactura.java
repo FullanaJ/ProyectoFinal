@@ -49,7 +49,7 @@ public class CreadorDeFactura extends Fragment {
 
         useAdapter();
         binding.save.setOnClickListener((t) -> {
-            CommonUtils.crearImagen(this);
+            viewModel.createFactura(getActivity());
             CommonUtils.defaultDialog(getActivity(), "Imagen guardada", "La imagen se ha guardado en la galería");
         });
         binding.edite.setOnClickListener((t) -> {

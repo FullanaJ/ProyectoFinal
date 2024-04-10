@@ -9,13 +9,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Empresa {
 
-    String name;
-    String nameComercial;
-    String nie;
-    String address;
-    String city;
-    String postalCode;
-    String phone;
-    String email;
+    private String name;
+    private String nameComercial;
+    private String nie;
+    private String address;
+    private String city;
+    private String postalCode;
+    private String phone;
+    private String email;
 
 }

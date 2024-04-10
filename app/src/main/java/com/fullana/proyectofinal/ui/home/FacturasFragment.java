@@ -70,8 +70,7 @@ public class FacturasFragment extends Fragment {
 }
 class FacturaAdapter extends RecyclerView.Adapter<FacturaAdapter.ViewHolder> {
 
-    ArrayList<Factura> facturas = new ArrayList<>(List.of(
-            new Factura("Factura 1", "12/12/2021")));
+    ArrayList<Factura> facturas = new ArrayList<>(List.of(new Factura()));
 
     ;
     static class ViewHolder extends RecyclerView.ViewHolder {
