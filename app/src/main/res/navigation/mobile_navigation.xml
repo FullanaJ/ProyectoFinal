@@ -3,28 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_facturas">
+    app:startDestination="@+id/nav_bills">
 
     <fragment
-        android:id="@+id/nav_facturas"
-        android:name="com.fullana.proyectofinal.ui.home.FacturasFragment"
-        android:label="@string/menu_facturas"
-        tools:layout="@layout/fragment_facturas" />
+        android:id="@+id/nav_bills"
+        android:name="com.fullana.proyectofinal.ui.home.BillsFragment"
+        tools:layout="@layout/fragment_bill" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.fullana.proyectofinal.ui.gallery.AlbaranFragment"
-        android:label="@string/menu_albaran"
-        tools:layout="@layout/fragment_albaran" />
+        android:id="@+id/nav_delivery_note"
+        android:name="com.fullana.proyectofinal.ui.deliveryNote.DeliveryNote"
+        tools:layout="@layout/fragment_delivery_note" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.fullana.proyectofinal.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_image_selector"
+        android:name="com.fullana.proyectofinal.ui.imageSelector.ImageSelector"
+        tools:layout="@layout/fragment_image_selector" />
     <fragment
-        android:id="@+id/creadorDeFactura"
-        android:name="com.fullana.proyectofinal.ui.creadorDeFacturas.CreadorDeFactura"
-        android:label="fragment_creador_de_factura"
-        tools:layout="@layout/fragment_creador_de_factura" />
+        android:id="@+id/nav_config"
+        android:name="com.fullana.proyectofinal.ui.config.Config"
+        tools:layout="@layout/fragment_config" />
+    <fragment
+        android:id="@+id/nav_createBill"
+        android:name="com.fullana.proyectofinal.ui.createBill.CreateBill"
+        tools:layout="@layout/fragment_create_bill" />
 </navigation>

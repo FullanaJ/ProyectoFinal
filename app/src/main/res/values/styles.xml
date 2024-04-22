@@ -2,38 +2,56 @@
 <resources>
 
     <style name="layout_border_primaryColor">
-        <item name="android:background">@drawable/borde_pintado</item>
+        <item name="android:background">@drawable/border_painted</item>
     </style>
 
-    ---! Texto ---
 
-    <style name="texto_item_headboard">
+    <style name="text_item_headboard">
         <item name="android:background">@drawable/item_headboard_background</item>
-        <item name="android:textColor">@color/Factura3</item>
+        <item name="android:textColor">@color/bill3</item>
         <item name="android:textSize">10sp</item>
         <item name="android:textAlignment">center</item>
         <item name="backgroundTint">@color/primary</item>
         <item name="android:paddingStart">2dp</item>
     </style>
-    <style name="texto_item">
-        <item name="android:background">@drawable/item_background</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">10sp</item>
+    <style name="text_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:textColor</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:padding">2dp</item>
     </style>
-    <style name="texto_resalted_1">
-        <item name="android:textColor">@color/Factura3</item>
+    <style name="text_highlighted_1">
+        <item name="android:textColor">@color/bill3</item>
     </style>
-    <style name="texto_resalted_2">
-        <item name="android:textColor">@color/primareVariation</item>
+    <style name="text_highlighted_2">
+        <item name="android:textColor">@color/primaryVariation</item>
     </style>
-    <style name="button_factura">
-        <item name="android:background">@drawable/button_factura_backgroud</item>
+    <style name="button_bill">
+        <item name="android:background">@drawable/button_bill_backgroud</item>
         <item name="android:textColor">@color/SecondaryVariationD</item>
         <item name="android:textSize">10sp</item>
     </style>
     <style name="input_text_dialog" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@color/primary</item>
         <item name="android:textColorHint">@color/hint</item>
+    </style>
+    <style name="cardView_bill_data">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="paddingStart">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:elevation">15dp</item>
+    </style>
+    <style name="dots_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:text">@string/two_dots</item>
+    </style>
+    <style name="progressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="indicatorColor">?colorSecondary</item>
     </style>
 </resources>

@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.fullana.proyectofinal"
-        minSdk = 33
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -35,8 +35,6 @@ android {
         viewBinding = true
     }
     packagingOptions {
-        exclude("com/itextpdf/io/font/cmap_info.txt")
-        exclude("com/itextpdf/io/font/cmap/*")
         exclude("META-INF/INDEX.LIST")
         exclude("META-INF/DEPENDENCIES")
         exclude("META-INF/gradle/incremental.annotation.processors")
@@ -57,6 +55,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    //
     //lombok
     compileOnly("org.projectlombok:lombok:1.18.32")
     annotationProcessor("org.projectlombok:lombok:1.18.32")
@@ -69,9 +69,9 @@ dependencies {
     implementation("com.google.apis:google-api-services-sheets:v4-rev20230808-2.0.0")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation("com.google.jacquard:jacquard-sdk:1.0.0")
+    implementation("com.google.apis:google-api-services-drive:v3-rev20220815-2.0.0")
 
-    //
+    //OpenId
     implementation("net.openid:appauth:0.11.1")
-
 
 }

@@ -5,16 +5,23 @@
     <color name="white">#FFFFFFFF</color>
     <color name="white2">#F7E8F6</color>
     <color name="primary">#50b8e7</color>
-    <color name="primareVariation">#84cdee</color>
+    <color name="primaryVariation">#84cdee</color>
     <color name="secondary">#E6E6FF</color>
     <color name="SecondaryVariationDark">#9D9DAF</color>
     <color name="SecondaryVariation">#FFE5FF</color>
     <color name="primaryD">#1E3A4C</color>
-    <color name="primareVariationD">#4283B7</color>
+    <color name="primaryVariationD">#4283B7</color>
     <color name="secondaryD">#4F4F79</color>
-    <color name="secondaryTransparen">#4D1E3A4C</color>
+    <color name="secondaryTransparent">#4D1E3A4C</color>
     <color name="SecondaryVariationD">#3C3C66</color>
-    <color name="Factura3">#4A148C</color>
+    <color name="bill3">#4A148C</color>
     <color name="hint">#8C8C8C</color>
     <color name="error">#B71C1C</color>
+    <color name="softLima">#E4FFD8</color>
+    <color name="softOrange">#ffd7af</color>
+    <color name="softRed">#FF8676</color>
+    <color name="softDarkGreen">#5f9ea0</color>
+    <color name="softCian">#baf8fd</color>
+    <color name="softViolet">#a196bd</color>
+    <color name="softDarkPink">#A32C6B</color>
 </resources>

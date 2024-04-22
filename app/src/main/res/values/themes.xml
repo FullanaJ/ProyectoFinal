@@ -6,13 +6,13 @@
         <!-- Status bar color. -->
 
         <item name="colorPrimaryVariant">?attr/colorPrimaryVariant</item>
-        <item name="colorPrimary">@color/primareVariation</item>
-        <item name="colorOnSecondary">@color/primareVariationD</item>
+        <item name="colorPrimary">@color/primaryVariation</item>
+        <item name="colorOnSecondary">@color/primaryVariationD</item>
         <item name="colorSecondaryVariant">@color/SecondaryVariation</item>
         <item name="colorSecondary">@color/secondary</item>
         <item name="android:textColor">@color/black</item>
         <item name="colorNavigationItem">@color/menu_item_color_state</item>
-        <item name="colorNavigationItemSelected">@color/primareVariation</item>
+        <item name="colorNavigationItemSelected">@color/primaryVariation</item>
         <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
         
         <!-- Customize your theme here. -->
@@ -28,9 +28,16 @@
     </style>
     <style name="DrawerColor" parent="Theme.ProyectoFinal">
     </style>
-
-    <style name="Theme.ProyectoFinal.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.ProyectoFinal.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
+    <style name="colorBill1" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softRed</item>
+    </style>
+    <style name="colorBill2" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softLima</item>
+    </style>
+    <style name="colorBill3" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softOrange</item>
+    </style>
+    <style name="colorBill4" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softCian</item>
+    </style>
 </resources>

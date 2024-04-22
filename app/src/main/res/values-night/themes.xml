@@ -4,11 +4,10 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primaryD</item>
         <item name="android:statusBarColor">@color/primaryD</item>
-        <item name="android:button" />
         <item name="colorSecondary">@color/secondaryD</item>
         <item name="colorSecondaryVariant">#7318C2</item>
         <item name="android:colorPrimaryDark">@color/SecondaryVariationD</item>
-        <item name="colorPrimaryVariant">@color/primareVariationD</item>
+        <item name="colorPrimaryVariant">@color/primaryVariationD</item>
         <item name="colorOnPrimary">@color/black</item>
         <item name="android:textColor">@color/white</item>
         <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
@@ -26,8 +25,22 @@
     <style name="ThemeOverlay.AppCompat.navTheme">
 
         <!-- Color of text and icon when SELECTED -->
-        <item name="colorPrimary">@color/primareVariationD</item>
+        <item name="colorPrimary">@color/primaryVariationD</item>
         <!-- Background color when SELECTED -->
 
+    </style>
+    <style name="DrawerColor" parent="Theme.ProyectoFinal">
+    </style>
+    <style name="colorBill1" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softDarkPink</item>
+    </style>
+    <style name="colorBill2" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softDarkGreen</item>
+    </style>
+    <style name="colorBill3" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/softViolet</item>
+    </style>
+    <style name="colorBill4" parent="cardView_bill_data">
+        <item name="cardBackgroundColor">@color/SecondaryVariationDark</item>
     </style>
 </resources>
