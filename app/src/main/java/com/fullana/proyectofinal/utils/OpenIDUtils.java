@@ -27,7 +27,7 @@ public class OpenIDUtils {
 
     public static Uri URI_GOOGLE_OAUTH2 = Uri.parse("https://accounts.google.com/o/oauth2/auth");
     public static Uri URI_GOOGLE_TOKEN = Uri.parse("https://oauth2.googleapis.com/token");
-    public static final String CLIENT_ID = "816271458390-vpsg23deata489nmp8dl5sgckldqr9e5.apps.googleusercontent.com";
+    public static final String CLIENT_ID = "";
     public static String CLIENT_TOKEN;
     public static final List<String> SCOPES = List.of(
             "https://www.googleapis.com/auth/drive",
